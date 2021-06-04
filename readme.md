@@ -16,10 +16,6 @@ rastreamento de encomendas e busca de endereços através do CEP.</p>
 
 ## Instalação
 
-sudo apt install php-soap
-
-sudo service apache2 restart
-
 Instalação via composer.
 
 ```json
@@ -27,6 +23,14 @@ $ composer require escapework/frete:"0.5.*"
 ```
 
 ## Calculando preço e prazo
+
+Caso tenha feito o download execute antes:
+
+compsoer install
+
+sudo apt install php-soap
+
+sudo service apache2 restart
 
 ```php
 use EscapeWork\Frete\Correios\PrecoPrazo;
