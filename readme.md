@@ -16,6 +16,10 @@ rastreamento de encomendas e busca de endereços através do CEP.</p>
 
 ## Instalação
 
+sudo apt install php-soap
+
+sudo service apache2 restart
+
 Instalação via composer.
 
 ```json
